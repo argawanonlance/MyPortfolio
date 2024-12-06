@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My personal portfolio showcasing my skills, projects, and achievements">
+    <title>Your Name - Portfolio</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        /* Header */
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(to right, #9899a1, #0c0c0c);
+            color: #fff;
+            padding: 40px 20px;
+        }
+
+        header .text {
+            text-align: center;
+            max-width: 600px;
+            margin-right: 30px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-top: 20px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin: 10px 0;
+        }
+
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid #fff;
+            object-fit: cover;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #333;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1rem;
+            padding: 5px 15px;
+            border-radius: 30px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 50px 20px;
+            text-align: center;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .content p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .project {
+            background: #fff;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            margin: 20px;
+            padding: 20px;
+            width: 250px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: left;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .project:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .project h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .project p {
+            font-size: 1rem;
+            color: #777;
+        }
+
+        /* Contact Form */
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        form input,
+        form textarea {
+            padding: 12px;
+            width: 100%;
+            max-width: 500px;
+            margin: 10px 0;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 1rem;
+        }
+
+        form button {
+            padding: 12px 30px;
+            background-color: #4e54c8;
+            color: #fff;
+            border: none;
+            font-size: 1.1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        form button:hover {
+            background-color: #8f94fb;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            header img {
+                margin-bottom: 20px;
+            }
+
+            header h1 {
+                font-size: 2rem;
+            }
+
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="text">
+            <h1>Lance Anthony C. Argawanon</h1>
+            <p>| Aspiring Web Developer |</p>
+        </div>
+        <img src="c:\Users\Lance Anthony\Downloads\pic.jpg" alt="Your Name">
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="content">
+            <p>Hello! My name is Lance, and I am currently an Information Technology (IT) student with a strong passion for technology and software development. Although I’m still in the process of completing my studies, I am already focusing on my ultimate goal—becoming a web developer. From an early age, I’ve been fascinated by computers, and over time, this curiosity turned into a love for coding. Throughout my time as an IT student, I have developed a solid foundation in various programming languages and technologies. I am committed to learning, growing, and improving every day. I am excited about the opportunities that lie ahead and look forward to applying my skills to the world of web development in the future.
+            </p>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <h2>Resume</h2>
+        <div class="content">
+            <p>Click below to download my full resume or browse my key experiences:</p>
+            <a href="resume.pdf" target="_blank">
+                <button>Download Resume</button>
+            </a>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>For our mini capstone project in the Integrative Programming and Technologies subject, I had the opportunity to apply my knowledge of HTML, JavaScript, and CSS to create a functional and visually appealing web-based system.</p>
+            </div>
+            <!-- Add more projects here -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Simple form validation
+        document.querySelector("form").addEventListener("submit", function(event) {
+            const name = document.getElementById("name").value;
+            const email = document.getElementById("email").value;
+            const message = document.getElementById("message").value;
+
+            if (!name || !email || !message) {
+                alert("Please fill in all fields.");
+                event.preventDefault();
+            }
+        });
+    </script>
+</body>
+
+</html>
